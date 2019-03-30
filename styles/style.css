@@ -14,7 +14,7 @@ fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section, summary,
-time, mark, audio, video {
+time, mark, audio, video{
     margin: 0;
     padding: 0;
 }
@@ -24,7 +24,7 @@ header, hgroup, menu, nav, section {
 }
 h1, h2, h3, h4, h5, h6 {
     font-size: 100%;
-    color: #808e92;
+    color: #282828;
 }
 table {
     border-collapse: collapse;
@@ -52,7 +52,7 @@ del, s {
     text-decoration: line-through;
 }
 pre, code, samp, kbd {
-    font-family: monospace;
+    font-family: system-ui, sans-serif;
 }
 small {
     font-size: 0.75em;
@@ -75,9 +75,9 @@ textarea {
     $MAIN
 \*------------------------------------*/
 html {
-    background-color: #f6f9f9;
-    color: #95a4a9;
-    font: 12px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #ffffff;
+    color: #262a41;
+    font-family: 'system-ui', sans-serif
 }
 body {
     margin: 10%;
@@ -86,20 +86,22 @@ body {
 .avatar {
     float: left;
     margin: 0 40px 20px 0;
+    max-width: 210px;
+    max-height: 210px;
 }
     .avatar img {
-        max-width: 200px;
-        max-height: 200px;
-        border-radius: 125px;
+        max-width: 210px;
+        max-height: 210px;
+        border-radius: 30px;
     }
 
 .content {
     float: left;
-    width: 300px;
+    width: 400px;
 }
     .title {
         font-size: 48px;
-        font-weight: normal;
+        font-weight: 700;
         line-height: 1;
     }
 
@@ -145,13 +147,14 @@ ul, ol, dl,
     margin-bottom: 20px;
 }
 p {
-    font-weight: bold;
+    font-weight: none;
+    margin: 0 0 1.5em
 }
 ul, ol, dl {
     list-style-type: none;
 }
 a {
-    color: #339999;
+    color: #0e28f1cf;
     font-weight: bold;
 }
 a:hover, a:focus {
@@ -302,11 +305,11 @@ Copyright (c) 2012 Dan Eden
         
     }
 
-    .avatar img {
-        max-width: 125px;
-        max-height: 125px;
+    .avatar img, .ishadow {
+        max-width: 130px;
+        max-height: 130px;
     }
-
+    
     .content {
         width: 100%;
     }
