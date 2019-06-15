@@ -26,6 +26,17 @@ h3{
     margin: 35px auto;
 }
 
+.month{
+    padding: 0px 40px;  
+    max-width: 400px; 
+    border-radius: 20px;
+    color: #fff;
+    font-family:Dancing Script;
+    font-size: 21px;
+    text-align: center;
+    margin: 35px auto;
+}
+
 .shadow{
     box-shadow: 0 5px 10px rgba(154,160,185,.05),0 15px 40px rgba(166,173,201,.2);
 }
@@ -44,23 +55,12 @@ pre{
 }
 
 @media only screen and (max-width: 720px) {
-    .card {
+    .card, .month{
         max-width: 80%;
         margin: 30px 8%;
     }
     
 }    
-
-.month{
-    padding: 0px 40px;  
-    max-width: 400px; 
-    border-radius: 20px;
-    margin: 45px auto;
-    color: #fff;
-    font-family:Dancing Script;
-    font-size: 35px;
-    text-align: center;
-}
 
 .jan{
     background-image: linear-gradient(120deg, #f093fb 0%, #f5576c 100%);
