@@ -1,0 +1,52 @@
+body{
+    background: #fff;
+    font-family: Rubik;
+    line-height: 1.7;
+}
+
+a {
+    color: #1248afcc;
+    font-weight: bold;
+}
+
+h1{
+    margin-top: 0%;
+}
+
+h3{
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+.card{
+    padding: 40px;
+    background: #fff;
+    max-width: 400px; 
+    border-radius: 20px;
+    margin: 60px auto;
+}
+
+.shadow{
+    box-shadow: 0 5px 10px rgba(154,160,185,.05),0 15px 40px rgba(166,173,201,.2);
+}
+
+.shadow2{
+    box-shadow: 0 7px 30px -10px rgba(150,170,180,0.5);
+}
+
+pre{
+    max-width: 360px;
+}
+
+.highlight {
+    font-weight: bold;
+    color: #1248afcc;
+}
+
+@media only screen and (max-width: 720px) {
+    .card{
+        max-width: 80%;
+        margin: 60px 8%;
+    }
+    
+}    
