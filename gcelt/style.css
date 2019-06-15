@@ -44,7 +44,7 @@ pre{
 }
 
 @media only screen and (max-width: 720px) {
-    .card .janurary{
+    .card {
         max-width: 80%;
         margin: 30px 8%;
     }
@@ -75,4 +75,48 @@ pre{
 .mar{
     background: linear-gradient(120deg, #2575fc 0%, #6a11cb 100%);
     box-shadow: 0 7px 30px -10px #444be7;
+}
+
+.apr{
+    background: linear-gradient(120deg, #ffb199 0%, #ff0844 100%);
+    box-shadow: 0 7px 30px -10px #ff6572;
+}
+
+.may{
+    background: linear-gradient(120deg, #b224ef 0%, #7579ff 100%);
+    box-shadow: 0 7px 30px -10px #974af6;
+}
+
+.jun{
+    background: linear-gradient(120deg, #FFBE0B 0%, #F42B03 100%);
+    box-shadow: 0 7px 30px -10px #fa7b08;
+}
+
+.jul{
+    background: linear-gradient(120deg, #5AFF15 0%, #00B712 100%);
+    box-shadow: 0 7px 30px -10px #34e014;
+}
+
+.aug{
+    background-image: linear-gradient(120deg, #f093fb 0%, #f5576c 100%);
+    box-shadow: 0 7px 30px -10px #f371a9;
+}
+
+.sep{
+    background-image: linear-gradient(120deg, #2af598 0%, #009efd 100%);
+    box-shadow: 0 7px 30px -10px #1bcdc7;
+}
+
+.oct{
+    background: linear-gradient(120deg, #b224ef 0%, #7579ff 100%);
+    box-shadow: 0 7px 30px -10px #974af6;
+}
+.nov{
+    background: linear-gradient(120deg, #ffb199 0%, #ff0844 100%);
+    box-shadow: 0 7px 30px -10px #ff6572;
+}
+
+.dec{
+    background: linear-gradient(120deg, #FFBE0B 0%, #F42B03 100%);
+    box-shadow: 0 7px 30px -10px #fa7b08;
 }
